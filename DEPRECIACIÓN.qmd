@@ -1,0 +1,145 @@
+---
+title: "DEPRECIACIÓN"
+author: "Alexa Moreno López <br>
+         Dana Yuval Reyes González <br>
+         Stephani Olvera Chávez <br>
+         Oscar  Arciniega Patricio <br>
+         Karla Galilea Suárez Esquivel<br><br>"
+format: 
+ revealjs:
+   theme: night
+   background-transition: fade
+   slide-number: true
+   margin: 0.1
+   width: 100%
+   height: 100%
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+```{=html}
+<style>
+ p {
+ text-align: justify;
+}
+</style>
+```
+## **DEPRECIACIÓN**
+
+### Introducción
+
+La depreciación contable es un proceso útil en la contabilidad, el cual nos permite distribuir el valor de los activos fijos de manera razonable a lo largo de su vida útil. Algunos conceptos que son necesarios de resaltar para comprender mejor el tema son: - Activo fijo - Valor residual - Vida útil - Gasto por depreciación
+
+## **Importancia de la depreciación en la contabilidad empresarial**
+
+Al depreciar los activos, las empresas pueden: · Distribuir los costos de los activos a lo largo del tiempo · Cumplir con las normas fiscales y contables · Mejorar la toma de decisiones financiera
+
+## **Cálculo de la Depreciación**
+
+• Identificación del costo del activo • Determinación de la vida útil • Cálculo del valor residual • Aplicación del método de depreciación
+
+## **Consideraciones Fiscales**
+
+Deducción fiscal de la depreciación Las empresas pueden deducir la depreciación como un gasto en su declaración de impuestos, reduciendo así su base imponible y, en consecuencia, su carga tributaria. Es esencial seguir las regulaciones fiscales para asegurar que las deducciones sean válidas.
+
+## **Métodos para calcular la depreciación**
+
+### **Método de linea recta**
+
+Este método supone que la depreciación anual del activo fijo es la misma durante cada año de su vida útil. - Depreciación = Depreciación total (DT) entre vida útil del activo en años (n) \$D = DT/n \$ - Depreciación Total = Costo inicial del activo (C) menos su valor de salvamento (S) \$ DT = C – S\$ - Sustituyendo: \$ D = C-S/n\$ - Costo de salvamento tomando en consideración la inflación \$S = C(1 + λ)n – D\[( (1+λ)n – 1)/λ \] \$
+
+## **Ejemplo**
+
+Se compra una bomba de agua centrífuga vertical en 445 000, la cual tiene una vida útil de 16 años. Su valor de desecho será de cero, y se estima que se gastará \$8000 en desmontarla y llevarla a la chatarra. Calcule el valor en libros de la bomba al cabo de 10 años C = \$445,000 n = 16 s = -\$8000
+
+DT = 445000 – (-8000) = 453,000 D16 = 45300 / 16 = 28,312.5
+
+D10 = 445,000 – (28,312.5)(10) = 453,000 – 283,125 = \$161,875
+
+## **Tabla**
+
+![](depreciacion/tablay%20grafica%201.png){.absolute top="3" left="400" width="700" height="500"}
+
+## **Grafica**
+
+![](depreciacion/tabla%20y%20grafica%202.png){.absolute top="3" left="400" width="700" height="500"}
+
+## **Método de suma de digitos**
+
+Es un método de depreciación acelerada en el cual la depreciación es mayor en los primeros años de vida del activo fijo, disminuyendo en los años subsecuentes.
+
+-   Fórmula del método de la suma de dígitos: Depreciación = Depreciación total por fracción $D = (DT)(F)$
+
+-   Para calcular F es la división de los años entre suma de los años de la vida útil del activo, $F = n/n!$
+
+Donde al numerador de la fracción para el primer año es n; para el segundo año, el numerador será (n – 1), para el tercer año (n – 2), para el cuarto año (n – 3), y así sucesivamente
+
+## **Ejemplo**
+
+Calcule la depreciación anual de una laptop que cuesta \$19 400, su valor de desecho es de 2500 y tiene una vida útil de 4 años.
+
+DT = 19400 – 2500 = 16,900
+
+-   Para el primer año: F1 = 4/4! = 4/(4 + 3 + 2 + 1) = 4/10 D1 = (16,900) (4/10) = 6,760
+
+-   Para el segundo año: F2 = (4-1) / 10 = 3/10 D2 = (16,900) (3/10) = 5,070
+
+-   Para el tercer año F3 = (4-2) / 10 = 2/10 D3 = (16,900) (2/10) = 3,380
+
+-   Para el cuarto año F2 = (4-3) / 10 = 1/10 D4 = (16,900) (1/10) = 1,690
+
+## **Tabla**
+
+![](depreciacion/tabla%20depreciacion%20oscar.png){.absolute top="50" left="320" width="750" height="500"}
+
+## **Método de porcentaje fijo**
+
+En este método se utiliza un porcentaje de depreciación constante, llamado tasa de depreciación, sobre el valor en libros,esta es una cantidad que disminuye cada año, la base sobre la cual se aplica la tasa de depreciación es variable, por lo tanto los cargos anuales por depreciación son mayores en los primeros años de vida del activo y van disminuyendo cada año. La depreciación anual viene dada por la siguiente ecuación: $D=Vd$
+
+d= tasa de depreciación V=valor en libros del año inmediato anterior al del año cuya depreciación anual se desea calcular.
+
+## **Ejemplo**
+
+Un laboratorio de análisis clínicos compro un aparato para realizar análisis .El costo del aparato fue de \$60 000 dólares y tiene una vida útil de 5 años .Si se aplica una tasa de depreciación de 35%,elabore la tabla de depreciación
+
+## **Tabla**
+
+![](depreciacion/tabla%20depreciacion%20porcentaje.png){.absolute top="3" left="400" width="700" height="500"}
+
+## **Método de fondo de amortización**
+
+Es una variante del método de línea recta que si toma en cuenta los intereses de tal manera que la suma de los depósitos anualizados más sus intereses sea igual al final de la vida útil del activo, a la depreciación total.
+
+Formula: $D=DT\cdot i/(1+i)^n-1$
+
+Donde:
+
+D=Depreciación anual
+
+i =tasa de interés
+
+n= años de vida útil del activo
+
+DT=Depreciación total
+
+## **Ejemplo**
+
+Una maquina cuyo costo fue fue de \$275 000 tiene una vida útil de 5 años al cabo de los cuales podrá vender en 22 000.Si los cargos por depreciación anual se invierten en un fondo de reserva que paga un interés de 10% anual .Calcule
+
+a)  Depreciación total DT=275 000 – 22 000=\$253 000
+b)  Depreciación anual D= (253 000) \*(0.10) =\$41 440.76 (1+0.10)\^5 -1
+
+Al depositar 41 440.76 cada fin de año en el fondo de depreciación se tendrá un monto de \$253 000 al cabo de 5 años.
+
+## **Tabla**
+
+![](depreciacion/tabla%20depreciacion%20con%20amort.png){.absolute top="3" left="400" width="700" height="500"}
+
+## **Conclusiones**
+
+Este mecanismo de distribución de valor resulta de gran relevancia a la hora de mantener un bienestar empresarial, tanto en el ámbito contable como en el fiscal, al cumplir con las normativas y regulaciones establecidas, así como con los registros correspondientes que la entidad lleve a cabo. 
+Para finalizar, cada método corresponde a una forma distinta en que la empresa puede llevar a cabo la depreciación, cada uno con distintos razonamientos y desarrollo, pero con una misma utilidad y finalidad: un cálculo correcto.
